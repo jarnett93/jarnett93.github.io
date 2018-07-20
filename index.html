@@ -1,6 +1,20 @@
 <html>
 <head>
     <title>My website</title>
+    
+    <style>
+        #divstruct {
+            background: #5aceb0;
+        }
+        
+        .row {
+            margin: 10px;
+        }
+        
+        .row .col {
+            width: 50%;
+        }
+    </style>
 </head>
 <body>
     <h1>GIT GUD.</h1>
@@ -10,19 +24,19 @@
     <h5>GIT GUD.</h5>
     <h6>GIT GUD.</h6>
     
-       <div>
-        <div>
+       <div id="divstruct" class="many manyclasses row">
+        <div class="col">
             row 1 column 1 
         </div>
-        <div>
+        <div class="col">
             row 1 column 2
         </div>
     </div> 
-    <div>
+    <div class="col">
         <div>
             row 2 column 1 
         </div>
-        <div>
+        <div class="col">
             row 2 column 2
         </div>
     </div>
